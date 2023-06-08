@@ -59,3 +59,8 @@ auditbeat_module_windows:
     datasets:
       - host
       - process
+
+auditbeat_logging:
+  enabled: true
+  to_files:
+    enabled: true
